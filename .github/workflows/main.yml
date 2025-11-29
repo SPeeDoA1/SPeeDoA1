@@ -1,5 +1,31 @@
-            - name: GitHub-Profile-3D-Contrib
-  # You may pin to the exact commit or the version.
-  # uses: yoshi389111/github-profile-3d-contrib@208d8215bd117497a02c94f559f94474ba23819c
-  uses: yoshi389111/github-profile-3d-contrib@v0.9.1
-          
+name: GitHub Stats Terminal Style
+
+on:
+  schedule:
+    - cron: "47 2 * * *"  # Runs daily at 2:47 UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: Generate Stats
+        run: |
+          npx github-stats-terminal-style ${{ github.repository_owner }} dracula
+        env:
+          GHT: ${{ secrets.GHT }}
+      
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add github_stats.svg
+          git diff --staged --quiet || git commit -m "Update GitHub stats"
+          git push
