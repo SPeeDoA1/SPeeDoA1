@@ -1,2 +1,4 @@
-- name: GitHub-Profile-3D-Contrib
+            - name: GitHub-Profile-3D-Contrib
+  # You may pin to the exact commit or the version.
+  # uses: yoshi389111/github-profile-3d-contrib@208d8215bd117497a02c94f559f94474ba23819c
   uses: yoshi389111/github-profile-3d-contrib@v0.9.1
