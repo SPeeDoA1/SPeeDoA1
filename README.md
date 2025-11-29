@@ -15,7 +15,7 @@
 
 ---
 
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SPeeDoA1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true&cache_seconds=1800" width="320"/>
+<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SPeeDoA1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=FFFFFF&langs_count=6" width="320"/>
 
 ### Hey there!
 
@@ -68,21 +68,11 @@ I'm **Ali Saad** — a developer from **Mosul, Iraq** currently studying at **NT
 
 ---
 
-### 3D Contribution Calendar
-
-<div align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%"/>
-</div>
-
-> To enable: Add this GitHub Action to your profile repo `.github/workflows/profile-3d.yml`
-
----
-
 ### Terminal Stats
 
 <div align="center">
   <a href="https://github.com/SPeeDoA1">
-    <img src="https://github-stats-terminal-style.vercel.app/api?username=SPeeDoA1&theme=synthwave&border=false" alt="Terminal Style Stats"/>
+    <img src="./github_stats.svg" alt="Terminal Style Stats"/>
   </a>
 </div>
 
