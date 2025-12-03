@@ -15,7 +15,7 @@
 
 ## 👋 About Me
 
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SPeeDoA1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=FFFFFF&langs_count=6" width="320"/>
+<img align="right" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=SPeeDoA1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=FFFFFF&langs_count=6" width="320"/>
 
 Hey there! I'm **Ali Saad** — a passionate developer from **Mosul, Iraq** 🇮🇶
 
@@ -42,13 +42,20 @@ Currently studying at **NTU**, I love building things for the web, tinkering wit
 ### Languages & Databases
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-### Web Technologies
+### Frontend
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+### Backend
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
 ### Creative Suite
 ![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)
@@ -73,8 +80,8 @@ Currently studying at **NTU**, I love building things for the web, tinkering wit
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SPeeDoA1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=FFFFFF&count_private=true&include_all_commits=true" height="180"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=SPeeDoA1&theme=tokyonight&hide_border=true&background=0D1117&stroke=6C63FF&ring=6C63FF&fire=FF6B6B&currStreakLabel=6C63FF" height="180"/>
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=SPeeDoA1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=FFFFFF&count_private=true&include_all_commits=true" height="180"/>
+  <img src="https://streak-stats.demolab.com?user=SPeeDoA1&theme=tokyonight&hide_border=true&background=0D1117&stroke=6C63FF&ring=6C63FF&fire=FF6B6B&currStreakLabel=6C63FF" height="180"/>
 </div>
 
 <div align="center">
