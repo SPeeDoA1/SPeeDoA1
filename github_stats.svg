@@ -50,13 +50,13 @@
   <b>    0</b> repositories starred
   <b>    8</b> repositories watched
 </div>
-<div class="stdin"><span class="ps1-path">speedoa1@metrics</span>:<span class="ps1-location">~</span># ls -lh github/repositories</div><div class="stdout">Total 16 repositories - 711 MB
+<div class="stdin"><span class="ps1-path">speedoa1@metrics</span>:<span class="ps1-location">~</span># ls -lh github/repositories</div><div class="stdout">Total 16 repositories - 712 MB
 -r--  <b>    1</b>  stargazer
 -r--  <b>    0</b>  forks
 -r--  <b>    8</b>  watchers
 dr-x  <b>    0</b>  packages
 
-<span class="diff">@@ -2.69k +4.32k @@</span>
+<span class="diff">@@ -534 +505k @@</span>
 </div>
 
 </pre>
