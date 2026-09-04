@@ -8,19 +8,31 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v3
-      
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-      
+      - uses: actions/checkout@v4
+
       - name: Generate Stats
-        run: |
-          npx github-stats-terminal-style ${{ github.repository_owner }} dracula
-        env:
-          GHT: ${{ secrets.GHT }}
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: github_stats.svg
+          user: SPeeDoA1
+          template: terminal
+          base: header, activity, community, repositories
+          config_timezone: Asia/Baghdad
+          plugin_lines: yes
+          plugin_lines_history_limit: 1
+          plugin_lines_repositories_limit: 4
+          plugin_lines_sections: base
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_from: 200
+          plugin_habits_languages_limit: 8
       
       - name: Commit and Push
         run: |
