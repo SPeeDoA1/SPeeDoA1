@@ -50,7 +50,7 @@
   <b>    3</b> repositories starred
   <b>    8</b> repositories watched
 </div>
-<div class="stdin"><span class="ps1-path">speedoa1@metrics</span>:<span class="ps1-location">~</span># ls -lh github/repositories</div><div class="stdout">Total 47 repositories - 3.29 GB
+<div class="stdin"><span class="ps1-path">speedoa1@metrics</span>:<span class="ps1-location">~</span># ls -lh github/repositories</div><div class="stdout">Total 47 repositories - 3.37 GB
 -r--  <b>    8</b>  stargazers
 -r--  <b>    0</b>  forks
 -r--  <b>    8</b>  watchers
@@ -58,7 +58,7 @@ dr-x  <b>    0</b>  packages
 dr-x         LICENSE
 -r--         └── NOASSERTION
 
-<span class="diff">@@ -979k +5.70m @@</span>
+<span class="diff">@@ -986k +5.76m @@</span>
 </div>
 
 </pre>
